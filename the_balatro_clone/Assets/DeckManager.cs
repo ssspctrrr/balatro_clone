@@ -113,29 +113,4 @@ public class DeckManager : MonoBehaviour
             deck[randomIndex] = temp;
         }
     }
-    // ... inside DeckManager class ...
-
-    public void DiscardSelected()
-    {
-        // 1. Find all cards that are marked as "Selected"
-        // We loop BACKWARDS when removing items to avoid errors
-        for (int i = cardsInHand.Count - 1; i >= 0; i--)
-        {
-            GameObject cardObj = cardsInHand[i];
-            CardInteraction interaction = cardObj.GetComponent<CardInteraction>();
-
-            // If the card is selected...
-            if (interaction.isSelected)
-            {
-                // Remove from the list logic
-                cardsInHand.RemoveAt(i);
-                
-                // Destroy the game object
-                Destroy(cardObj);
-            }
-        }
-
-        // 2. Automatically refill the hand after discarding
-        RefillHand();
-    }
 }
