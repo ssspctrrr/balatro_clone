@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 8_of_spades_Data
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: 8_of_spades
-  rank: 0
-  scoreValue: 0
-  cardSuit: 0
+  rank: 8
+  scoreValue: 8
+  cardSuit: 3
   cardImage: {fileID: 8938307060754621319, guid: f30a74271dad557428c28b5d154470d4, type: 3}

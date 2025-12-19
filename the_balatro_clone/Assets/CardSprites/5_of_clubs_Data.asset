@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 5_of_clubs_Data
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: 5_of_clubs
-  rank: 0
-  scoreValue: 0
-  cardSuit: 0
+  rank: 5
+  scoreValue: 5
+  cardSuit: 2
   cardImage: {fileID: -8540882322538604625, guid: 4079a61ef3ebec247ba2da5ed1998a0f, type: 3}

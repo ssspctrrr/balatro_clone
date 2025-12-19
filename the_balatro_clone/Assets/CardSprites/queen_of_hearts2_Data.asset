@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: queen_of_hearts2_Data
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: queen_of_hearts2
-  rank: 0
-  scoreValue: 0
+  rank: 12
+  scoreValue: 10
   cardSuit: 0
   cardImage: {fileID: 8894628655803708611, guid: d2da44170e8075f40a5dc077a4ff761a, type: 3}

@@ -17,6 +17,8 @@ public class DeckManager : MonoBehaviour
 
     [Header("Data")]
     public List<Sprite> allCardImages = new List<Sprite>();
+
+    public List<CardData> allCards = new List<CardData>();
     
     private List<Sprite> deck = new List<Sprite>();
     private List<GameObject> cardsInHand = new List<GameObject>();

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ace_of_diamonds_Data
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: ace_of_diamonds
-  rank: 0
-  scoreValue: 0
-  cardSuit: 0
+  rank: 14
+  scoreValue: 11
+  cardSuit: 1
   cardImage: {fileID: -2255316151519851609, guid: 6039022b412022946be28c8453be4ca0, type: 3}

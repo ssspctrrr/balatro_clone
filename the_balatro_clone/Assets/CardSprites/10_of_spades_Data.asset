@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10_of_spades_Data
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: 10_of_spades
-  rank: 0
-  scoreValue: 0
-  cardSuit: 0
+  rank: 10
+  scoreValue: 10
+  cardSuit: 3
   cardImage: {fileID: 3072378692959319023, guid: 217cd5405111b664c85df5d8171814d2, type: 3}

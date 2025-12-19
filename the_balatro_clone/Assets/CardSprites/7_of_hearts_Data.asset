@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 7_of_hearts_Data
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: 7_of_hearts
-  rank: 0
-  scoreValue: 0
+  rank: 7
+  scoreValue: 7
   cardSuit: 0
   cardImage: {fileID: -602519547490392390, guid: fb719ed98131f7940945dd4123c19cf4, type: 3}
